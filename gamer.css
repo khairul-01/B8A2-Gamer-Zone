@@ -5,15 +5,29 @@
    font-family: 'Open Sans', sans-serif;
    font-family: 'Work Sans', sans-serif;
 }
+/* shared styles  */
+.text-grey{
+   color: #534C64;
+}
+.bn{
+   padding: 21px 40px;
+   border-radius: 48px;
+   border: none;
+   color: #FFF;
+   font-weight: 600;
+   font-size: 1.2rem;
+}
 header, main{
-   margin: 0 240px;
+   padding: 0 240px;
 }
 /* nav section style start */
 nav{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 38px 0;
+   padding: 38px 240px;
+   background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .navlogo{
    display: flex;
@@ -29,13 +43,27 @@ nav{
 }
 .navIcon > ul{
    display: flex;
+   align-items: center;
 }
 .navIcon li{
    list-style: none;
    margin-right: 32px;
+   color: #3C354F;
+   font-weight: 500;
+   font-size: 1.2rem;
+}
+.follow{
+   display: flex;
+   align-items: center;
+   border-radius: 8px;
+   background: rgba(11, 2, 35, 0.10);
+   padding: 18px 24px;
+   color: #3C354F;
+
 }
 .navIcon a{
    text-decoration: none;
+   
 }
 .navIcon i{
    margin-left: 20px;
@@ -46,5 +74,117 @@ nav{
 .banner{
    display: flex;
    align-items: center;
+   /* background-color: #FFF; */
+   margin-top: 2px;
+   height: 700px;
+}
+.banner-content, .banner-img{
+   width: 50%;
+}
+.banner-content{
+   /* background: url("./images/Group\ 14.png"); */
+   background-image: url("./images/Group 14.png");
+   height: auto;
+}
+.banner-img img{
+   width: 100%;
+}
+.banner-play{
+   color: #0B0223;
+   font-weight: 600;
+   text-transform: uppercase;
+   font-size: 4rem;
+}
+.banner-goat{
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #F948B2;
+   font-size: 6rem;
+}
+.banner-text{
+   color: #534C64;
+   font-size: 1.25rem;
+   font-weight: 500;
+   margin-top: 18px;
+}
+.btnP{
+   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   margin-top: 40px;
+   margin-right: 12px;
+}
+.btnG{
+   background: #4EC5F7;
+   margin-top: 40px;
 }
 /* banner section end  */
+
+/* Game style start  */
+.game{
+   display: flex;
+   align-items: center;
+   margin: 55px 0;
+   gap: 50px;
+}
+.game-img{
+   width: 60%;
+} 
+.game-content{
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   text-align: end;
+   gap: 22px;
+}
+.game-title{
+   font-size: 48px;
+   font-weight: 700;
+   font-size: 3rem;
+}
+.game-text{
+   color: #534C64;
+   font-weight: 400;
+   font-size: 1.2rem;
+}
+.game-btn{
+   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   max-width: 200px;
+}
+.purpose{
+   font-weight: 500;
+   font-size: 1.5rem;
+   color: #534C64;
+}
+.unleash{
+   color: #534C64;
+   font-weight: 700;
+   font-size: 2rem;
+}
+/* Game style end  */
+/* Online game style start  */
+.online-title{
+   color: #0B0223;
+   font-weight: 700;
+   font-size: 3rem;
+   text-align: center;
+}
+.online-descr{
+   color: #534C64;
+   text-align: center;
+   font-size: 1.2rem;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+.video-container{
+   display: flex;
+   gap: 7px;
+   justify-content: space-around;
+   margin-top: 50px;
+}
+.online-cap{
+   color: #534C64;
+   font-size: 1.2rem;
+   font-weight: 500;
+   margin-top: 10px;
+}
+/* Online game style end  */

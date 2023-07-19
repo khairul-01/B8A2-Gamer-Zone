@@ -41,3 +41,10 @@ nav{
    margin-left: 20px;
 }
 /* nav section style end */
+
+/* banner section start  */
+.banner{
+   display: flex;
+   align-items: center;
+}
+/* banner section end  */

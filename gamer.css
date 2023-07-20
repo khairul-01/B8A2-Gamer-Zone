@@ -186,6 +186,15 @@ nav{
 .video{
    width: 350px;
 }
+.video3{
+   position: relative;
+}
+/* .play{
+   visibility: hidden;
+} */
+.video3:hover{
+   opacity: 0.8;
+}
 .video img{
    width: 100%;
 }
@@ -210,6 +219,7 @@ nav{
    font-size: 3rem;
    font-weight: 700;
    color: #0B0223;
+   margin-bottom: 24px;
 
 }
 .isntant{
@@ -219,12 +229,15 @@ nav{
    text-align: right;
    margin-right: 80px;
    width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
 }
 .play-descr{
    color: #534C64;
    font-size: 1.2rem;
    font-weight: 400;
-   line-height: 30px; 
+   max-width: 370px;
 }
 .play-img{
    width: 50%;

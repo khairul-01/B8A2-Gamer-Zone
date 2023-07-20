@@ -94,13 +94,13 @@ nav{
    color: #0B0223;
    font-weight: 600;
    text-transform: uppercase;
-   font-size: 4rem;
+   font-size: 3rem;
 }
 .banner-goat{
    font-weight: 800;
    text-transform: uppercase;
    color: #F948B2;
-   font-size: 6rem;
+   font-size: 5.94rem;
 }
 .banner-text{
    color: #534C64;
@@ -340,3 +340,23 @@ footer{
    text-align: center;
 }
 /* Footer section style end  */
+
+/* Responsive media qury start  */
+/* for mobile version  */
+@media screen and (max-width:428px) {
+   header, main{
+      padding: 10px 8px;
+   }
+   nav{
+      padding: 10px 2px;
+   }
+   nav,
+   .navIcon > ul
+   {
+      flex-direction: column;
+   }
+   .banner{
+      flex-direction: column;
+   }
+}
+/* Responsive media qury end  */

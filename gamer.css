@@ -203,7 +203,7 @@ nav{
    align-items: center;
    gap: 100px;
    margin-top: 120px;
-   height: 820px;
+   height: 750px;
    /* border: 2px solid palegreen; */
 }
 .play-title{
@@ -231,19 +231,20 @@ nav{
    height: 100%;
 }
 .rec55{
-   height: 95%;
+   height: 80%;
    width: 100%;
 }
 .rectP{
    position: relative;
    top: -300px;
    left: -150px;
+   height: 50%;
 }
 /* play section end  */
 
 /* offer supply section start  */
 .offer{
-   margin-top: 120px;
+   margin-top: 12px;
 }
 .offer-item{
    display: flex;
@@ -252,10 +253,11 @@ nav{
    padding: 10px;
 }
 .offer-item:hover{
-   border: 1px solid forestgreen;
+   border: 1px solid #FF42A5;
    border-radius: 50px;
    background: #FFF;
    cursor: pointer;
+   color: #FF42A5;
 }
 .offer-row1{
    display: grid;
@@ -266,10 +268,62 @@ nav{
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    justify-items: center;
+   padding: 0 40px;
+   margin-top: 30px;
 }
 .offer-title{
    font-weight: 600;
    color: #0B0223;
    font-size: 1.2rem;
 }
+.offer-title:hover{
+   color:#FF42A5
+}
 /* offer supply section end  */
+
+/* Footer section style start  */
+footer{
+   height: 636px;
+   background-color: #0B0223;
+   color: #FFF;
+   margin-top: 120px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 65px;
+}
+.footer-logo{
+   color: #FFF;
+}
+.footer-story{
+   display: flex;
+   gap: 60px;
+}
+.footer-story a{
+   color: #FFF;
+   text-decoration: none;
+}
+.footer-icon a{
+   color: #FFF;
+   text-decoration: none;
+}
+.footer-icon{
+   display: flex;
+   gap: 40px;
+   font-size: 2.5rem;
+}
+.footer-term a, .footer-copy{
+   color: rgba(255, 255, 255, 0.60);
+   font-weight: 500;
+   text-decoration: none;
+}
+.footer-term{
+   display: flex;
+   gap: 60px;
+   margin-bottom: 28px;
+}
+.footer-copy{
+   text-align: center;
+}
+/* Footer section style end  */

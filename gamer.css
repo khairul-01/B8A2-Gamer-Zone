@@ -231,7 +231,8 @@ nav{
 }
 .play-content{
    text-align: right;
-   margin-right: 80px;
+   margin-right: 120px;
+   /* margin-bottom: 60px; */
    width: 50%;
    display: flex;
    flex-direction: column;
@@ -253,9 +254,10 @@ nav{
 }
 .rectP{
    position: relative;
-   top: -300px;
-   left: -150px;
+   top: -240px;
+   left: -100px;
    height: 50%;
+   width: 70%;
 }
 /* play section end  */
 
@@ -416,9 +418,23 @@ footer{
       text-align: center;
       height: auto;
    }
+   .play-img{
+      width: 80%;
+      margin-left: 50px;
+   }
+   /* .rec55{
+      height: 60%;
+   }
+   .rectP{
+      width: 60%;
+      /* height: 30%; */
+   .play-content{
+      margin-right: 0px;
+   }
    .offer{
       margin-top: 380px;
    }
+   
    .footer-story{
       display: grid;
       grid-template-columns: repeat(3, 1fr);

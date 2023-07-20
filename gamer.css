@@ -256,7 +256,7 @@ nav{
    position: relative;
    top: -240px;
    left: -100px;
-   height: 50%;
+   height: 40%;
    width: 70%;
 }
 /* play section end  */
@@ -421,6 +421,9 @@ footer{
    .play-img{
       width: 80%;
       margin-left: 50px;
+   }
+   .rectP{
+      height: 50%;
    }
    /* .rec55{
       height: 60%;

@@ -80,11 +80,12 @@ nav{
 }
 .banner-content, .banner-img{
    width: 50%;
+   
 }
 .banner-content{
    /* background: url("./images/Group\ 14.png"); */
    background-image: url("./images/Group 14.png");
-   height: auto;
+   background-repeat: no-repeat;
 }
 .banner-img img{
    width: 100%;
@@ -124,6 +125,7 @@ nav{
    align-items: center;
    margin: 55px 0;
    gap: 50px;
+   background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);;
 }
 .game-img{
    width: 60%;
@@ -181,6 +183,12 @@ nav{
    justify-content: space-around;
    margin-top: 50px;
 }
+.video{
+   width: 350px;
+}
+.video img{
+   width: 100%;
+}
 .online-cap{
    color: #534C64;
    font-size: 1.2rem;
@@ -188,3 +196,80 @@ nav{
    margin-top: 10px;
 }
 /* Online game style end  */
+
+/* play section start  */
+.play{
+   display: flex;
+   align-items: center;
+   gap: 100px;
+   margin-top: 120px;
+   height: 820px;
+   /* border: 2px solid palegreen; */
+}
+.play-title{
+   font-size: 3rem;
+   font-weight: 700;
+   color: #0B0223;
+
+}
+.isntant{
+   color:#F948B2
+}
+.play-content{
+   text-align: right;
+   margin-right: 80px;
+   width: 50%;
+}
+.play-descr{
+   color: #534C64;
+   font-size: 1.2rem;
+   font-weight: 400;
+   line-height: 30px; 
+}
+.play-img{
+   width: 50%;
+   height: 100%;
+}
+.rec55{
+   height: 95%;
+   width: 100%;
+}
+.rectP{
+   position: relative;
+   top: -300px;
+   left: -150px;
+}
+/* play section end  */
+
+/* offer supply section start  */
+.offer{
+   margin-top: 120px;
+}
+.offer-item{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 10px;
+}
+.offer-item:hover{
+   border: 1px solid forestgreen;
+   border-radius: 50px;
+   background: #FFF;
+   cursor: pointer;
+}
+.offer-row1{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   justify-items: center;
+}
+.offer-row2{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   justify-items: center;
+}
+.offer-title{
+   font-weight: 600;
+   color: #0B0223;
+   font-size: 1.2rem;
+}
+/* offer supply section end  */

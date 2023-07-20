@@ -435,9 +435,14 @@ footer{
       margin-right: 0px;
    }
    .offer{
-      margin-top: 380px;
+      margin-top: 200px;
    }
-   
+   .offer-row1{
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .offer-row2{
+      grid-template-columns: repeat(2, 1fr);
+   }
    .footer-story{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
